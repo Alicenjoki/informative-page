@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, rgb(209, 141, 152), rgb(146, 56, 146));
+    margin: auto;
+    width: 80%;
+}
+nav{
+    font-size: 24px;
+    margin: 10px;
+    font-family: Quintessential;
+    padding-left: -20px;
+}
+
+.container{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    box-shadow: rgb(26, 24, 24)  4px 4px 4px;
+    background-color:rgb(219, 183, 183);
+}
+.whole{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin: 20px;
+    font-family: Quintessential;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+}
+.min{
+    text-align:justify;
+    margin: 20px;
+    font-family: Quintessential;
+    border-top: 2px solid rgb(168, 136, 136);
+    display: none;
+}
+
+button{
+    background-color:  rgb(219, 183, 183);
+    border: none;
+}
+
+.display .min{
+    display: block;
+}
